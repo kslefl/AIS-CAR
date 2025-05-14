@@ -56,3 +56,10 @@ class Ship : Vehicle
         Console.WriteLine($"Пассажиров: ???");
     }
 }
+class Program
+{
+    static void Main()
+    {
+       
+    }
+}
