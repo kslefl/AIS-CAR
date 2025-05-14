@@ -60,6 +60,39 @@ class Program
 {
     static void Main()
     {
-       
+        Plane plane = new Plane
+        {
+            X = 100,
+            Y = 200,
+            Price = 1000000,
+            Speed = 800,
+            Year = 2020,
+            Altitude = 10000,
+            Passengers = 150,
+            Port = "Шереметьево"
+        };
+
+        Car car = new Car
+        {
+            X = 10,
+            Y = 20,
+            Price = 30000,
+            Speed = 180,
+            Year = 2019
+        };
+
+        Ship ship = new Ship
+        {
+            X = 50,
+            Y = 70,
+            Price = 500000,
+            Speed = 50,
+            Year = 2015,
+            Port = "Одесса"
+        };
+
+        plane.ShowInfo();
+        car.ShowInfo();
+        ship.ShowInfo();
     }
 }
