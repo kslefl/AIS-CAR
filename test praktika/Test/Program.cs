@@ -19,7 +19,7 @@ class Plane : Vehicle
     public double Altitude { get; set; }
     public int Passengers { get; set; }
 
-    public string Port { get; set; } = "";
+    public string Port { get; set; } = ""; //Должно быть удалено лишнее свойство Port, так как у самолета не должно быть порта приписки.
 
     public override void ShowInfo()
     {
@@ -55,4 +55,9 @@ class Ship : Vehicle
         Console.WriteLine($"Порт приписки: {Port}");
         Console.WriteLine($"Пассажиров: ???");
     }
+}
+    class Program
+{
+  //Должен быть добавлен метод "Main", подходящий для точки входа
+    
 }
